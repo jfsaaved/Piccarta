@@ -8,7 +8,6 @@ import android.os.Bundle;
  */
 public class Main extends Activity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,4 +42,5 @@ public class Main extends Activity {
     protected void onDestroy() {
         super.onDestroy();
     }
+
 }
