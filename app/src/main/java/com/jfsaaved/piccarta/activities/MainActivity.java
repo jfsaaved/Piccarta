@@ -1,12 +1,12 @@
-package com.jfsaaved.piccarta.main;
+package com.jfsaaved.piccarta.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
 
 /**
- * Created by 343076 on 27/01/2016.
+ * Created by 343076 on 01/02/2016.
  */
-public class Main extends Activity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +16,7 @@ public class Main extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
+
     }
 
     @Override
@@ -42,5 +43,4 @@ public class Main extends Activity {
     protected void onDestroy() {
         super.onDestroy();
     }
-
 }
